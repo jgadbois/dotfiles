@@ -19,6 +19,12 @@ Simplify setup from YADR so I have more control and can use on Ubuntu and OSX ea
 2. 
 
 # Installation
+
 1. Symlink config files to home directory
 1. Install vundle
   1. `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+1. Install Vim plugins `vim +PluginInstall +qall`
+
+# iTerm - optional
+1. Install Solarized on iTerm
+1. In iTerm2, in Preferences -> Profiles -> Terminal, under "Terminal Emulation" you have "Report Terminal Type:" set to xterm-256color.
