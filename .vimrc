@@ -1,12 +1,20 @@
 " Use Vim settings, rather then Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
 set nocompatible
+filetype off
 
-" TODO: this may not be in the correct place. It is intended to allow overriding <Leader>.
-" source ~/.vimrc.before if it exists.
-if filereadable(expand("~/.vimrc.before"))
-  source ~/.vimrc.before
-endif
+" Vundle setup
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+" Vim Rails
+Plugin 'git@github.com:tpope/vim-rails.git'
+
+call vundle#end()       
+filetype plugin indent on
 
 " ================ General Config ====================
 
