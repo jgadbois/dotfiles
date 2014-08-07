@@ -22,3 +22,4 @@ Simplify setup from YADR so I have more control and can use on Ubuntu and OSX ea
 1. Symlink config files to home directory
 1. Install vundle
   1. `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+1. Install Vim plugins `vim +PluginInstall +qall`
