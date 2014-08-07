@@ -12,6 +12,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " Vim Rails
 Plugin 'git@github.com:tpope/vim-rails.git'
+Plugin 'git@github.com:altercation/vim-colors-solarized.git'
 
 call vundle#end()       
 filetype plugin indent on
@@ -33,7 +34,9 @@ set autoread                    "Reload files changed outside vim
 set hidden
 
 "turn on syntax highlighting
-syntax on
+syntax enable 
+set background=dark
+colorscheme solarized
 
 " Change leader to a comma because the backslash is too far away
 " That means all \x commands turn into ,x
