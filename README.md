@@ -6,6 +6,7 @@ Simplify setup from YADR so I have more control and can use on Ubuntu and OSX ea
 
 ## .zsh
 1. Setup .zsh with git info in shell
+2. https://github.com/sorin-ionescu/prezto?
 
 ## Vim
 1. Nice color scheme and easy plugin management
