@@ -25,6 +25,10 @@ Simplify setup from YADR so I have more control and can use on Ubuntu and OSX ea
   1. `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 1. Install Vim plugins `vim +PluginInstall +qall`
 
+1. Install zsh
+  1. `https://www.digitalocean.com/community/tutorials/how-to-install-z-shell-zsh-on-a-cloud-server`
+  2. https://github.com/sorin-ionescu/prezto
+
 # iTerm - optional
 1. Install Solarized on iTerm
 1. In iTerm2, in Preferences -> Profiles -> Terminal, under "Terminal Emulation" you have "Report Terminal Type:" set to xterm-256color.
