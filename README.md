@@ -28,6 +28,9 @@ Simplify setup from YADR so I have more control and can use on Ubuntu and OSX ea
 1. Install zsh
   1. `https://www.digitalocean.com/community/tutorials/how-to-install-z-shell-zsh-on-a-cloud-server`
   2. https://github.com/sorin-ionescu/prezto
+1. Install agnoster theme
+  1. https://raw.githubusercontent.com/skwp/dotfiles/master/zsh/prezto-themes/prompt_agnoster_setup
+  2. Set to default in zprezto
 
 # iTerm - optional
 1. Install Solarized on iTerm
